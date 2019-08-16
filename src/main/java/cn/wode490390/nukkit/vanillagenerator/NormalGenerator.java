@@ -163,12 +163,12 @@ public class NormalGenerator extends VanillaGenerator {
 
         PopulatorOre ores = new PopulatorOre();
         ores.setOreTypes(new OreType[]{
-                new OreType(Block.get(COAL_ORE), 20, 17, 0, 128),
-                new OreType(Block.get(IRON_ORE), 20, 9, 0, 64),
+                new OreType(Block.get(COAL_ORE), 8, 8, 0, 128),
+                new OreType(Block.get(IRON_ORE), 4, 4, 0, 64),
                 new OreType(Block.get(REDSTONE_ORE), 8, 8, 0, 16),
-                new OreType(Block.get(LAPIS_ORE), 1, 7, 0, 16),
-                new OreType(Block.get(GOLD_ORE), 2, 9, 0, 32),
-                new OreType(Block.get(DIAMOND_ORE), 1, 8, 0, 16),
+                new OreType(Block.get(LAPIS_ORE), 4, 8, 0, 16),
+                new OreType(Block.get(GOLD_ORE), 2, 2, 0, 32),
+                new OreType(Block.get(DIAMOND_ORE), 1, 6, 0, 16),
                 new OreType(Block.get(DIRT), 10, 33, 0, 128),
                 new OreType(Block.get(GRAVEL), 8, 33, 0, 128),
                 new OreType(Block.get(STONE, BlockStone.GRANITE), 10, 33, 0, 80),
